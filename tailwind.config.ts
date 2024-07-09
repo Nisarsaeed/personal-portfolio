@@ -21,6 +21,14 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        purpleDeep: '#5825C1',
+        purplePink: '#9914C1',
+        purpleBlue: '#847DD3',
+        lightPink: '#E58FFF',
+        lavender: '#DECDFF',
+        lightLavender: '#F5F5FF',
+      },
     },
   },
   plugins: [addVariablesForColors,
