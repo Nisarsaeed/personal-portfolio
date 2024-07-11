@@ -4,8 +4,7 @@ import { useState } from "react";
 import { IconCopy } from "@tabler/icons-react";
 import { cn } from "@components/utils/cn";
 import { BackgroundGradientAnimation } from "./Background-Gradient";
-import GridGlobe from "./GirdGlobe";
-import animationData from "@components/data/confetti.json";
+import GridGlobe from "./Grid-Globe";
 import { MagicButton } from "./buttons";
 import Image from "next/image";
 import { leftLists, rightLists } from "@components/data";
@@ -47,15 +46,6 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const [copied, setCopied] = useState(false);
-
-  const defaultOptions = {
-    loop: copied,
-    autoplay: copied,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
 
   const handleCopy = () => {
     const text = "hsu@jsmastery.pro";
