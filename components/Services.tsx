@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Highlight } from "./ui/Highlight-Text";
-import { serviceItems } from "@components/data";
+// import { serviceItems } from "@components/data";
 
 const hexStyle = {
   clipPath: "polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%)"
@@ -15,7 +15,7 @@ const Services = () => {
       <h1 className="md:text-5xl text-center w-full font-bold sm:text-4xl">
         My<Highlight> services</Highlight>
       </h1>
-      <div className="relative flex justify-center items-center h-[450px] w-[1150px] mt-20">
+      <div className="relative h-[450px] w-[1150px] mt-20">
         {serviceItems.map((item) => (
           <div
             key={item.id}
@@ -48,4 +48,43 @@ const Services = () => {
 };
 
 export default Services;
+
+const serviceItems = [
+  {
+    id: 1,
+    img: "/s1.png",
+    title: "Frontend development",
+    position: "top-0 left-[25em]",
+  },
+  {
+    id: 2,
+    img: "/s2.png",
+    title: "Backend development",
+    position: "top-0 right-[25em]",
+  },
+   {
+     id: 3,
+     img: "/s3.png",
+     title: "Responsive Design",
+     position: "top-[9em] left-[19em]",
+   },
+   {
+     id: 4,
+     img: "/s4.png",
+     title: "Database Management",
+     position: "top-[9em] right-[19em]",
+   },
+   {
+     id: 5,
+     img: "/s5.png",
+     title: "Unit Testing & Error Fixing",
+     position: "bottom-0 left-[25em]",
+   },
+   {
+     id: 6,
+     img: "/s6.png",
+     title: "Mobile App Development",
+     position: "bottom-0 right-[25em]",
+   },
+];
 
