@@ -27,6 +27,7 @@ const config: Config = {
         lightPink: '#E58FFF',
         lavender: '#DECDFF',
         lightLavender: '#F5F5FF',
+        darkBlue : '#000319',
       },
       animation: {
         first: "moveVertical 30s ease infinite",

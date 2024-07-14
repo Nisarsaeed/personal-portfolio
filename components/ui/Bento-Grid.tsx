@@ -135,13 +135,13 @@ export const BentoGridItem = ({
             {description}
           </div>
           <div
-            className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10 text-lightLavender`}
+            className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
           >
             {title}
           </div>
           {id === 2 && <GridGlobe />}
           {id === 5 && (
-            <div className="flex gap-2 md:gap-4 lg:gap-5 w-fit absolute right-0 top-0">
+            <div className="flex gap-2 md:gap-4 lg:gap-5 w-fit absolute right-0 top-0 text-purpleDeep">
               <div className="flex flex-col gap-2 md:gap-8">
                 {leftLists.map((item, i) => (
                   <span

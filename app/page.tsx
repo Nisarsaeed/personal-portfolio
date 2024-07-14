@@ -7,7 +7,7 @@ import Services from "@components/components/Services";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen w-screen overflow-x-hidden">
+    <main className="relative min-h-screen w-screen overflow-x-hidden bg-darkBlue">
     <FloatingNav/>
     <Hero/>
     <About/>

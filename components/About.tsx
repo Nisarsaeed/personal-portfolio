@@ -3,7 +3,7 @@ import { bentoGridItems } from "@components/data";
 
 export default function About() {
   return (
-    <section className=" w-full h-fit">
+    <section className=" w-full h-fit text-lightLavender">
     <BentoGrid className="mx-auto py-20 max-w-[80vw] h-full">
       {bentoGridItems.map((item) => (
         <BentoGridItem
