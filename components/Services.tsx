@@ -38,14 +38,8 @@ const Services = () => {
             </div>
           </div>
         ))}
-        <div
-          className="absolute p-[2px] h-28 w-28 md:h-40 md:w-40 lg:h-80 lg:w-80 transform -translate-x-1/2 -translate-y-1/2"
-          style={{ top: "50%", left: "50%" }}
-        >
-          <div
-            className="flex justify-center bg-darkBlue items-center h-full w-full flex-col text-lightLavender p-2"
-            style={hexStyle}
-          >
+        <div className="absolute p-[2px] h-28 w-28 md:h-40 md:w-40 lg:h-80 lg:w-80 transform -translate-x-1/2 -translate-y-1/2" style={{ top: "50%", left: "50%" }}>
+          <div className="flex justify-center bg-darkBlue items-center h-full w-full flex-col text-lightLavender p-2" style={hexStyle}>
             <span className="font-bold text-7xl">NS</span>
           </div>
         </div>
