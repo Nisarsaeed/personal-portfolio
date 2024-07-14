@@ -9,20 +9,20 @@ import { projectItems } from "@components/data";
 
 const Projects = () => {
   return (
-    <section className="h-fit w-screen">
-      <div id="projects h-full py-20 mx-auto">
-        <h1 className="md:text-5xl text-center w-full font-bold sm:text-4xl">
+    <section className="h-fit w-full">
+      <div id="projects " className="h-full">
+        <h1 className="md:text-5xl text-center font-bold text-3xl max-w-[80%] mx-auto">
           Few of my recent <Highlight>projects</Highlight>
         </h1>
         {/* project cards */}
         <div className="flex flex-wrap items-center justify-center p-4 mt-10 gap-x-10 gap-y-8">
           {projectItems.map((item) => {
            return (<CardContainer
-              containerClassName=" sm:h-[41rem] h-[32rem] sm:w-[570px] lg:w-[40vw]" 
+              containerClassName="w-[80vw] h-fit sm:h-[41rem] h-[32rem] sm:w-[600px] lg:w-[40vw]" 
               className="h-full w-full"
               key={item.title}
             >
-              <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] lg:w-full sm:w-[30rem] h-full rounded-xl p-6 border  ">
+              <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-full rounded-xl p-8 border  ">
                 <CardItem
                   translateZ="50"
                   className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 text-neutral-800"
@@ -41,7 +41,7 @@ const Projects = () => {
                     src="/b1.svg"
                     height="1000"
                     width="1000"
-                    className="h-80 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                    className="h-60 sm:h-80 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                     alt="thumbnail"
                   />
                 </CardItem>

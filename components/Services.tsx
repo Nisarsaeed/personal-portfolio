@@ -11,7 +11,7 @@ const Services = () => {
       id="services"
       className="h-fit w-screen flex flex-col  justify-center items-center relative py-20"
     >
-      <h1 className="md:text-5xl text-center w-full font-bold sm:text-4xl">
+      <h1 className="md:text-5xl text-center font-bold text-3xl max-w-[80%] mx-auto">
         My<Highlight> services</Highlight>
       </h1>
       <div className="relative h-[330px] w-[1030px] md:h-[450px] md:w-[1150px] lg:h-[900px] lg:w-[1500px] mt-20 ">

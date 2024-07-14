@@ -55,13 +55,13 @@ export const BentoGridItem = ({
 
   const containerClasses = cn(
     id === 1
-      ? "lg:col-span-3 md:col-span-6 md:row-span-2 min-h-[60vh]"
+      ? "lg:col-span-3 md:col-span-6 md:row-span-2 lg:min-h-[60vh] md:min-h-[30vh]"
       : id === 2 || id === 3
-      ? "lg:col-span-2 md:col-span-3 md:row-span-1 min-h-[30vh]"
+      ? "lg:col-span-2 md:col-span-3 md:row-span-1 lg:min-h-[30vh] md:min-h-[20vh]"
       : id === 5
-      ? "md:col-span-3 md:row-span-2  min-h-[40vh]"
+      ? "md:col-span-3 md:row-span-2 lg:min-h-[40vh] md:min-h-[20vh]"
       : id === 6
-      ? "md:col-span-2 md:row-span-2 min-h-[40vh]"
+      ? "lg:col-span-2 md:col-span-3 md:row-span-2 lg:min-h-[40vh] md:min-h-[20vh]"
       : "",
     "relative overflow-hidden rounded-3xl m-2 border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4"
   );
@@ -90,7 +90,7 @@ export const BentoGridItem = ({
       : id === 6
       ? "justify-center md:max-w-full max-w-60 text-center absolute"
       : "",
-    "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
+    "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10 z-50"
   );
 
   return (
@@ -141,8 +141,8 @@ export const BentoGridItem = ({
           </div>
           {id === 2 && <GridGlobe />}
           {id === 5 && (
-            <div className="flex gap-2 lg:gap-5 w-fit absolute right-0">
-              <div className="flex flex-col gap-1 md:gap-3 lg:gap-8">
+            <div className="flex gap-2 md:gap-4 lg:gap-5 w-fit absolute right-0 top-0">
+              <div className="flex flex-col gap-2 md:gap-8">
                 {leftLists.map((item, i) => (
                   <span
                     key={i}
@@ -154,7 +154,7 @@ export const BentoGridItem = ({
                 ))}
                 <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-purplePink"></span>
               </div>
-              <div className="flex flex-col gap-1 md:gap-3 lg:gap-8">
+              <div className="flex flex-col gap-2 md:gap-8 ">
                 <span className="lg:py-4 lg:px-3 py-4 px-3   rounded-lg text-center bg-purplePink"></span>
                 {rightLists.map((item, i) => (
                   <span

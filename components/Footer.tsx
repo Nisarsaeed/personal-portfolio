@@ -4,8 +4,8 @@ import { Highlight } from "./ui/Highlight-Text";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col items-center h-fit rounded justify-center mt-20 py-10 w-screen md:mt-10">
-      <h1 className="md:text-5xl text-center font-bold sm:text-4xl lg:max-w-[60%] !leading-snug">
+    <footer className="flex flex-col items-center h-fit rounded justify-center mt-20 py-10 px-7 w-screen md:mt-10">
+      <h1 className="md:text-5xl text-center w-full font-bold text-3xl !leading-snug">
           Ready to take your <Highlight> digital
           presence </Highlight> to the next level?
         </h1>
@@ -36,7 +36,7 @@ const Footer = () => {
           </a>
         </div>
       </nav>
-      <aside className="md:mt-87 my-4">
+      <aside className="md:mt-7 my-4 text-center">
         <p>Copyright © 2024 - Nisar Saeed Gondal</p>
       </aside>
     </footer>
