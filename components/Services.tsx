@@ -59,13 +59,13 @@ const serviceItems = [
   },
   {
     id: 2,
-    img: "/s2.png",
+    img: "/s5.png",
     title: "Backend development",
     position: "top-0 right-[25em]",
   },
   {
     id: 3,
-    img: "/s3.png",
+    img: "/s6.png",
     title: "Responsive Design",
     position:
       " top-[7em] left-[21em] md:top-[9em] md:left-[19em] lg:top-[18em] lg:left-[14em]",
@@ -73,20 +73,20 @@ const serviceItems = [
   {
     id: 4,
     img: "/s4.png",
-    title: "Database Management",
+    title: "CMS",
     position:
       "top-[7em] right-[21em] md:top-[9em] md:right-[19em] lg:top-[18em] lg:right-[14em]",
   },
   {
     id: 5,
-    img: "/s5.png",
-    title: "Unit Testing & Error Fixing",
+    img: "/s2.png",
+    title: "Hosting",
     position: "bottom-0 left-[25em]",
   },
   {
     id: 6,
-    img: "/s6.png",
-    title: "Mobile App Development",
+    img: "/s3.png",
+    title: "Database Management",
     position: "bottom-0 right-[25em]",
   },
 ];
