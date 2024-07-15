@@ -45,8 +45,8 @@ const Projects = () => {
                     alt="thumbnail"
                   />
                 </CardItem>
-                <CardItem className="flex items-center justify-between mt-7 mb-3 w-full">
-                <div className="flex items-center">
+                <CardItem className="flex flex-col md:flex-row items-center justify-between mt-7 mb-3 w-full">
+                <div className="flex items-center m-4 sm:m-0">
                   {item.iconsList.map((icon, index) => (
                     <div
                       key={index}
