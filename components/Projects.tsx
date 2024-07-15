@@ -18,23 +18,16 @@ const Projects = () => {
         <div className="flex flex-wrap items-center justify-center p-4 mt-10 gap-x-10 gap-y-8">
           {projectItems.map((item) => {
            return (<CardContainer
-              containerClassName="w-[80vw] h-fit sm:h-[41rem] h-[32rem] sm:w-[600px] lg:w-[40vw]" 
+              containerClassName="w-[80vw] h-fit sm:h-[45rem] h-[38rem] sm:w-[600px] lg:w-[40vw]" 
               className="h-full w-full"
               key={item.title}
             >
               <CardBody className="bg-transparent relative group/card hover:shadow-2x border-purpleBlue/[0.3] w-full h-full rounded-xl p-8 border  ">
                 <CardItem
                   translateZ="50"
-                  className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1"
+                  className="font-bold lg:text-2xl md:text-xl text-base"
                 >
                  {item.title}
-                </CardItem>
-                <CardItem
-                  as="p"
-                  translateZ="60"
-                  className="text-lavender mt-2 lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
-                >
-                  {item.description}
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-4">
                   <Image
@@ -44,6 +37,13 @@ const Projects = () => {
                     className="h-60 sm:h-80 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                     alt="thumbnail"
                   />
+                </CardItem>
+                <CardItem
+                  as="p"
+                  translateZ="60"
+                  className="text-lightLavender/[0.8] my-6 lg:text-lg lg:font-normal font-light text-sm"
+                >
+                  {item.description}
                 </CardItem>
                 <CardItem className="flex flex-col md:flex-row items-center justify-between mt-7 mb-3 w-full">
                 <div className="flex items-center m-4 sm:m-0">
