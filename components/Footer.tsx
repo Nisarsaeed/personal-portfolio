@@ -9,7 +9,7 @@ import { Highlight } from "./ui/Highlight-Text";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col items-center h-fit rounded justify-center mt-20 py-10 px-7 w-screen md:mt-10 text-lightLavender">
+    <footer className="flex flex-col items-center h-fit rounded justify-center py-10 px-7 w-screen mt-10 text-lightLavender">
       <h1 className="md:text-5xl text-center w-full lg:max-w-[75%] font-bold text-3xl !leading-snug">
         Ready to take your <Highlight> digital presence </Highlight> to the next
         level?
@@ -35,7 +35,7 @@ const Footer = () => {
             <IconBrandFacebook size={30} />
           </a>
           <a
-            href={"#about"}
+            href={"https://www.linkedin.com/in/nisar-saeed/"}
             target="_blanck"
             className="border-purpleBlue border rounded-full p-2 hover:bg-purplePink  "
           >
@@ -49,7 +49,7 @@ const Footer = () => {
             <IconBrandGithub size={30} />
           </a>
           <a
-            href="http://upwork.com/"
+            href="https://www.upwork.com/freelancers/~01f56d5f1a2702f6c9"
             target="_blanck"
             className="border-purpleBlue border rounded-full p-2 hover:bg-purplePink  "
           >
