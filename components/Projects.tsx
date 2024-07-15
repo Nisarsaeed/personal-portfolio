@@ -61,9 +61,9 @@ const Projects = () => {
                 </div>
 
                 <CardItem className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                  <a className="flex lg:text-xl md:text-xs text-sm text-purple hover:border-b-2" href={item.detailsUrl} target="_blanck">
                     View Details
-                  </p>
+                  </a>
                   <IconLocation className="ms-3" color="#CBACF9" />
                 </CardItem>
               </CardItem>
