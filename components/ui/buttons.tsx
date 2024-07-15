@@ -2,9 +2,9 @@ import { button } from "@components/types/interfaces";
 
 export const LitUpBtn = ({ title }: button) => {
   return (
-    <button className="p-[3px] relative my-3">
+    <button className="p-[5px] relative my-3">
       <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
-      <div className="px-10 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
+      <div className="px-10 py-3  bg-darkBlue rounded-[6px]  relative group transition duration-200 text-lavender hover:bg-transparent font-medium text-base">
         {title}
       </div>
     </button>
