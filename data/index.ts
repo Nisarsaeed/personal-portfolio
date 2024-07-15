@@ -43,28 +43,28 @@ export const projectItems = [
   {
     title: "Real Time Chat Application",
     description:
-      "Chat Application built using MERN Stack. Having all the functionalities",
+      "This real-time chat application features like user registration and profile image uploads. It integrates with Cloudinary for image storage and Socket.io for real-time messaging.",
     iconsList:['/react.svg','/tail.svg','/node-js.svg','/mongodb.svg','/socket.svg','/cloudinary.svg'],
     detailsUrl:'https://github.com/Nisarsaeed/real-time-chat-application/blob/main/README.md'
   },
   {
     title: "Dynamic To-do App",
     description:
-      "Chat Application built using MERN Stack. Having all the functionalities",
+      "Developed a React-based to-do app integrated with Contentful for managing tasks and sort them into Todays and Upcomming tasks. With simple and responsive UI",
     iconsList:['/react.svg', '/contentful.svg','/js.svg','css.svg'],
     detailsUrl:'https://github.com/Nisarsaeed/react-todo-app/blob/main/README.md'
   },
   {
     title: "Dashboard ",
     description:
-      "Chat Application built using MERN Stack. Having all the functionalities",
+      "A practice project developed through the official Next.js course, implementing pure Next.js concepts such as static and dynamic rendering, suspense, user authentication and PostgreSQL database",
     iconsList:['/next.svg','/postgress.svg','/tail.svg','/ts.svg'],
     detailsUrl:'https://github.com/Nisarsaeed/nextjs-dashboard/blob/main/README.md'
   },
   {
     title: "Portfolio Project",
     description:
-      "Chat Application built using MERN Stack. Having all the functionalities",
+      "A static SPA Next.js application featuring modern and animated components to enhance online presence, utilizing the Framer Motion UI library (Aceternity) for a unique and modern design",
     iconsList:['/next.svg', '/tail.svg','/framer.svg','/ts.svg'],
     detailsUrl:'https://github.com/Nisarsaeed/personal-portfolio/blob/main/README.md'
   },
