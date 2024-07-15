@@ -9,7 +9,7 @@ import { Highlight } from "./ui/Highlight-Text";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col items-center h-fit rounded justify-center py-10 px-7 w-screen mt-10 text-lightLavender">
+    <footer className="flex flex-col items-center h-fit rounded justify-center py-10 px-7 w-screen mt-10 text-lightLavender" id="contact">
       <h1 className="md:text-5xl text-center w-full lg:max-w-[75%] font-bold text-3xl !leading-snug">
         Ready to take your <Highlight> digital presence </Highlight> to the next
         level?

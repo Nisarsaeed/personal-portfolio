@@ -9,7 +9,7 @@ import { IconLocation } from "@tabler/icons-react";
 
 const Projects = () => {
   return (
-    <section className="h-fit w-full text-lightLavender">
+    <section className="h-fit w-full text-lightLavender" id="projects">
       <div id="projects " className="h-full">
         <h1 className="md:text-5xl text-center font-bold text-3xl max-w-[80%] mx-auto">
           Few of my recent <Highlight>projects</Highlight>
