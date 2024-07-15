@@ -44,21 +44,25 @@ export const projectItems = [
     title: "Real Time Chat Application",
     description:
       "Chat Application built using MERN Stack. Having all the functionalities",
+    iconsList:['/react.svg','/tail.svg','/node-js.svg','/mongodb.svg','/socket.svg','/cloudinary.svg']
   },
   {
     title: "Dynamic To-do App",
     description:
       "Chat Application built using MERN Stack. Having all the functionalities",
+    iconsList:['/react.svg', '/contentful.svg','/js.svg','css.svg']
   },
   {
     title: "Dashboard ",
     description:
       "Chat Application built using MERN Stack. Having all the functionalities",
+    iconsList:['/next.svg','/postgress.svg','/tail.svg','/ts.svg']
   },
   {
     title: "Portfolio Project",
     description:
       "Chat Application built using MERN Stack. Having all the functionalities",
+    iconsList:['/next.svg', '/tail.svg','/framer.svg','/ts.svg']
   },
 ];
 

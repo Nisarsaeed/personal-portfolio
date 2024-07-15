@@ -3,9 +3,9 @@
 import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-Card";
-import Link from "next/link";
 import { Highlight } from "./ui/Highlight-Text";
 import { projectItems } from "@components/data";
+import { IconLocation } from "@tabler/icons-react";
 
 const Projects = () => {
   return (
@@ -45,24 +45,28 @@ const Projects = () => {
                     alt="thumbnail"
                   />
                 </CardItem>
-                <div className="flex justify-between items-center mt-16">
-                  <CardItem
-                    translateZ={20}
-                    as={Link}
-                    href="https://twitter.com/mannupaaji"
-                    target="__blank"
-                    className="px-4 py-2 rounded-xl text-xs font-normal"
-                  >
-                    Try now →
-                  </CardItem>
-                  <CardItem
-                    translateZ={20}
-                    as="button"
-                    className="px-4 py-2 rounded-xl bg-lightPink  text-xs font-bold"
-                  >
-                    Sign up
-                  </CardItem>
+                <CardItem className="flex items-center justify-between mt-7 mb-3 w-full">
+                <div className="flex items-center">
+                  {item.iconsList.map((icon, index) => (
+                    <div
+                      key={index}
+                      className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                      style={{
+                        transform: `translateX(-${5 * index + 2}px)`,
+                      }}
+                    >
+                      <Image width={100} height={100} src={icon} alt="prject icons" className="p-2" />
+                    </div>
+                  ))}
                 </div>
+
+                <CardItem className="flex justify-center items-center">
+                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                    View Details
+                  </p>
+                  <IconLocation className="ms-3" color="#CBACF9" />
+                </CardItem>
+              </CardItem>
               </CardBody>
             </CardContainer>)
           })}
