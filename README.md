@@ -2,7 +2,7 @@
 
 
 <!-- PROJECT SHIELDS -->
-[![MIT License][license-shield]]
+![MIT License][license-shield]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT TITLE AND DESCRIPTION -->
@@ -29,7 +29,7 @@ A static SPA Next.js application with modern and animated components to contribu
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]
+<img src="/public/screenshot.png" alt="project banner">
 
 This project is a personal portfolio website created to enhance my online presence. It showcases my skills, projects, and professional background using a modern and visually appealing design. The site is built as a static single-page application (SPA) using Next.js, and it leverages the Framer Motion UI library (Aceternity) for unique and animated components.
 
@@ -119,7 +119,6 @@ The resources used in this project are referenced below:
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/nisar-saeed
-[product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [Framer-motion]: https://img.shields.io/badge/-Framer-black?style=for-the-badge&logoColor=white&logo=framer&color=0055FF
