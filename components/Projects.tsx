@@ -31,7 +31,7 @@ const Projects = () => {
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-4">
                   <Image
-                    src="/b1.svg"
+                    src={item.img}
                     height="1000"
                     width="1000"
                     className="h-60 sm:h-80 w-full object-cover rounded-xl group-hover/card:shadow-xl"
