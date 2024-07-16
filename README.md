@@ -56,7 +56,6 @@ and many more, including code architecture and reusability
 * [![Tailwind][Tailwind.css]][Tailwind-url]
 * [![Framer Motion][Framer-motion]][Framer-url]
 * [![Acternity UI][Aceternity]][Aceternity-url]
-* [![Acternity UI][Aceternity]][Aceternity-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,5 +131,5 @@ The resources used in this project are referenced below:
 [Tailwind.css]: https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4
 [Tailwind.css]: https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4
 [Tailwind-url]: https://tailwindcss.com/
-[Aceternity]: https://img.shields.io/badge/Aceternity_UI-black?style=for-the-badge&logoColor=white&color=white
+[Aceternity]: https://img.shields.io/badge/Aceternity_UI-black?style=for-the-badge
 [Aceternity-url]: https://ui.aceternity.com/
