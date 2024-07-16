@@ -1,3 +1,5 @@
+<a id="readme-top"></a>
+
 <!-- PROJECT SHIELDS -->
 [![MIT License][license-shield]]
 [![LinkedIn][linkedin-shield]][linkedin-url]
@@ -30,7 +32,7 @@ A static SPA Next.js application with modern and animated components to contribu
 
 This project is a personal portfolio website created to enhance my online presence. It showcases my skills, projects, and professional background using a modern and visually appealing design. The site is built as a static single-page application (SPA) using Next.js, and it leverages the Framer Motion UI library (Aceternity) for unique and animated components.
 
-# Features
+### Features
 
 👉 **Hero**: Captivating introduction featuring a text highlight effect and grid background.
 
@@ -50,6 +52,7 @@ and many more, including code architecture and reusability
 * [![Next][Next.js]][Next-url]
 * [![Tailwind][Tailwind.css]][Tailwind-url]
 * [![Framer Motion][Framer-motion]][Framer-url]
+* [![Acternity UI][Aceternity]][Aceternity-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,16 +100,12 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Below listed are Resources used in this Project!
+The resources used in this project are referenced below:
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+* [Icons8](https://icons8.com/)
+* [freepik](https://www.freepik.com/)
 * [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [Idea inspired from Adrian Hajdin](https://github.com/adrianhajdin)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,7 +121,7 @@ Below listed are Resources used in this Project!
 [Next-url]: https://nextjs.org/
 [Framer-motion]: https://img.shields.io/badge/-Framer-black?style=for-the-badge&logoColor=white&logo=framer&color=0055FF
 [Framer-url]: https://www.framer.com/motion/
-[Tailwind]: https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4
+[Tailwind.css]: https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4
 [Tailwind-url]: https://tailwindcss.com/
-[Aceternity]:
-[Aceternity-url] :
+[Aceternity]: https://img.shields.io/badge/Aceternity_UI-black
+[Aceternity-url]: https://ui.aceternity.com/
