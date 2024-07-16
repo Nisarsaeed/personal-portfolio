@@ -1,5 +1,7 @@
 <a id="readme-top"></a>
 
+<a id="readme-top"></a>
+
 <!-- PROJECT SHIELDS -->
 [![MIT License][license-shield]]
 [![LinkedIn][linkedin-shield]][linkedin-url]
@@ -33,6 +35,7 @@ A static SPA Next.js application with modern and animated components to contribu
 This project is a personal portfolio website created to enhance my online presence. It showcases my skills, projects, and professional background using a modern and visually appealing design. The site is built as a static single-page application (SPA) using Next.js, and it leverages the Framer Motion UI library (Aceternity) for unique and animated components.
 
 ### Features
+### Features
 
 👉 **Hero**: Captivating introduction featuring a text highlight effect and grid background.
 
@@ -52,6 +55,7 @@ and many more, including code architecture and reusability
 * [![Next][Next.js]][Next-url]
 * [![Tailwind][Tailwind.css]][Tailwind-url]
 * [![Framer Motion][Framer-motion]][Framer-url]
+* [![Acternity UI][Aceternity]][Aceternity-url]
 * [![Acternity UI][Aceternity]][Aceternity-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -101,10 +105,14 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 ## Acknowledgments
 
 The resources used in this project are referenced below:
+The resources used in this project are referenced below:
 
 * [Icons8](https://icons8.com/)
 * [freepik](https://www.freepik.com/)
+* [Icons8](https://icons8.com/)
+* [freepik](https://www.freepik.com/)
 * [Img Shields](https://shields.io)
+* [Idea inspired from Adrian Hajdin](https://github.com/adrianhajdin)
 * [Idea inspired from Adrian Hajdin](https://github.com/adrianhajdin)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -121,6 +129,7 @@ The resources used in this project are referenced below:
 [Next-url]: https://nextjs.org/
 [Framer-motion]: https://img.shields.io/badge/-Framer-black?style=for-the-badge&logoColor=white&logo=framer&color=0055FF
 [Framer-url]: https://www.framer.com/motion/
+[Tailwind.css]: https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4
 [Tailwind.css]: https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4
 [Tailwind-url]: https://tailwindcss.com/
 [Aceternity]: https://img.shields.io/badge/Aceternity_UI-black?style=for-the-badge&logoColor=white&color=white
