@@ -1,6 +1,5 @@
 <a id="readme-top"></a>
 
-<a id="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
 [![MIT License][license-shield]]
@@ -34,7 +33,6 @@ A static SPA Next.js application with modern and animated components to contribu
 
 This project is a personal portfolio website created to enhance my online presence. It showcases my skills, projects, and professional background using a modern and visually appealing design. The site is built as a static single-page application (SPA) using Next.js, and it leverages the Framer Motion UI library (Aceternity) for unique and animated components.
 
-### Features
 ### Features
 
 👉 **Hero**: Captivating introduction featuring a text highlight effect and grid background.
@@ -94,9 +92,8 @@ This is an example of how to list things you need to use the software and how to
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Nisar Saeed - saeed_nisar@yahoo.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,15 +101,14 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 ## Acknowledgments
 
 The resources used in this project are referenced below:
-The resources used in this project are referenced below:
 
 * [Icons8](https://icons8.com/)
 * [freepik](https://www.freepik.com/)
 * [Icons8](https://icons8.com/)
 * [freepik](https://www.freepik.com/)
 * [Img Shields](https://shields.io)
-* [Idea inspired from Adrian Hajdin](https://github.com/adrianhajdin)
-* [Idea inspired from Adrian Hajdin](https://github.com/adrianhajdin)
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template/tree/master)
+* [Project Idea inspired from Adrian Hajdin](https://github.com/adrianhajdin)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
